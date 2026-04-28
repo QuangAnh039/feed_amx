@@ -1,0 +1,12 @@
+--- a/src/main.c        Thu Feb 20 10:24:26 2025
++++ b/src/main.c        Tue Feb 18 13:03:27 2025
+@@ -61,6 +61,7 @@
+ #include <sys/stat.h>
+ #include <fcntl.h>
+ #include <unistd.h>
++#include <libgen.h>
+
+ #include "amx_cli.h"
+ #include "amx_cli_eventloop.h"
+
+
